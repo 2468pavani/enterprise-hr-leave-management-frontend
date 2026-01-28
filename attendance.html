@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova Solutions|Attendance</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <div class="sidebar">
+    <h2>TechNova Portal</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a class="active" href="attendance.html">Attendance</a>
+    <a href="leave.html">Leave</a>
+    <a href="payroll.html">Payroll</a>
+  </div>
+
+  <div class="main">
+    <h1>Attendance Dashboard</h1>
+
+    <div class="grid">
+      <div class="stat green">Present: 18</div>
+      <div class="stat blue">Working Days: 22</div>
+      <div class="stat red">Absent: 2</div>
+    </div>
+
+    <h3>Daily Attendance Log</h3>
+
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Check-in</th>
+        <th>Check-out</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>22 Jan</td>
+        <td>09:10</td>
+        <td>18:05</td>
+        <td class="approved">Present</td>
+      </tr>
+      <tr>
+        <td>23 Jan</td>
+        <td>09:30</td>
+        <td>17:50</td>
+        <td class="pending">Late</td>
+      </tr>
+      <tr>
+        <td>24 Jan</td>
+        <td>-</td>
+        <td>-</td>
+        <td class="rejected">Absent</td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+<footer class="footer-note">
+  <p>© 2026 TechNova Solutions. All rights reserved.</p>
+</footer>
+</body>
+</html>

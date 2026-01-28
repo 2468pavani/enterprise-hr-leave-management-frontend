@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova Solutions|Leave</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <div class="sidebar">
+    <h2>TechNova Portal</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="attendance.html">Attendance</a>
+    <a class="active" href="leave.html">Leave Management</a>
+    <a href="payroll.html">Payroll</a>
+  </div>
+
+  <div class="main">
+    <h1>Leave Dashboard</h1>
+
+    <div class="grid">
+      <div class="stat green">Available: 12</div>
+      <div class="stat blue">Used: 6</div>
+      <div class="stat red">Pending: 2</div>
+    </div>
+
+    <div class="card">
+      <h3>Apply for Leave</h3>
+      <form class="form">
+        <label>From Date</label>
+        <input type="date">
+
+        <label>To Date</label>
+        <input type="date">
+
+        <label>Leave Type</label>
+        <select>
+          <option>Casual Leave</option>
+          <option>Sick Leave</option>
+          <option>Work From Home</option>
+        </select>
+
+        <label>Reason</label>
+        <textarea></textarea>
+
+        <button class="btn">Submit Request</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3>My Leave Requests</h3>
+      <table>
+        <tr>
+          <th>Dates</th>
+          <th>Type</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>10 Jan - 12 Jan</td>
+          <td>Casual</td>
+          <td class="pending">Pending</td>
+        </tr>
+        <tr>
+          <td>2 Feb - 3 Feb</td>
+          <td>Sick</td>
+          <td class="approved">Approved</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</div>
+<footer class="footer-note">
+  <p>© 2026 TechNova Solutions. All rights reserved.</p>
+</footer>
+</body>
+</html>
